@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Local databases & user data (keep user uploads private!)
+data/uploads/*
+!data/uploads/.gitkeep
+data/*.db
+data/*.db-journal
+
+# Models cache & weights
+models/*.bin
+models/*.safetensors
+models/*.pt
+models/*.onnx
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
